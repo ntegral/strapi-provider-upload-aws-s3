@@ -1,0 +1,39 @@
+{
+  "contributors": [
+    {
+      "name": "Dexter Hardy",
+      "email": "dexter.hardy@ntegral.com",
+      "url": "https://www.ntegral.com"
+    }
+  ],
+  "name": "@ntegral/strapi-provider-upload-aws-s3",
+  "version": "1.0.0",
+  "description": "Strapi provider for secure uploads to AWS S3",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf lib",
+    "publish:npm": "npm publish --access public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntegral/strapi-provider-upload-aws-s3"
+  },
+  "keywords": [
+    "strapi",
+    "aws",
+    "node.js"
+  ],
+  "author": "Dexter Hardy",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.13.4",
+    "aws-sdk": "^2.666.0",
+    "sharp": "^0.25.2"
+  },
+  "devDependencies": {
+    "@types/sharp": "^0.25.0"
+  }
+}
